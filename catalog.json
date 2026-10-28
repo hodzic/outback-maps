@@ -188,6 +188,30 @@
    ],
    "source": "SF Bay Area Water Trail, 2017",
    "added": "2026-10-28"
+  },
+  {
+   "id": "cosumnes-paddling",
+   "name": "Cosumnes River Preserve paddling",
+   "image": "maps/cosumnes-paddling.jpg",
+   "geopdf": "maps/cosumnes-paddling.pdf",
+   "thumb": "thumbs/cosumnes-paddling.jpg",
+   "size": 326848,
+   "width": 1407,
+   "height": 918,
+   "topLeft": [
+    38.26958718,
+    -121.44278656
+   ],
+   "topRight": [
+    38.26896458,
+    -121.40437233
+   ],
+   "bottomLeft": [
+    38.2474029,
+    -121.44377401
+   ],
+   "source": "Cosumnes River Preserve",
+   "added": "2026-10-28"
   }
  ]
 }
