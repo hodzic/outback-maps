@@ -1,0 +1,193 @@
+{
+ "app": "Outback",
+ "kind": "map-library",
+ "version": 1,
+ "updated": "2026-10-28",
+ "maps": [
+  {
+   "id": "tomales-bay",
+   "name": "Tomales Bay boat-in camping (NPS)",
+   "image": "maps/tomales-bay.jpg",
+   "thumb": "thumbs/tomales-bay.jpg",
+   "size": 559295,
+   "width": 1760,
+   "height": 2000,
+   "topLeft": [
+    38.2717311,
+    -123.0365281
+   ],
+   "topRight": [
+    38.2685383,
+    -122.8404896
+   ],
+   "bottomLeft": [
+    38.0984544,
+    -123.0369001
+   ],
+   "source": "National Park Service",
+   "license": "Public domain (US federal work)",
+   "added": "2026-10-28"
+  },
+  {
+   "id": "del-valle",
+   "name": "Del Valle Regional Park",
+   "image": "maps/del-valle.jpg",
+   "thumb": "thumbs/del-valle.jpg",
+   "size": 496626,
+   "width": 1189,
+   "height": 2000,
+   "topLeft": [
+    37.619052,
+    -121.7704201
+   ],
+   "topRight": [
+    37.6496622,
+    -121.7164172
+   ],
+   "bottomLeft": [
+    37.5468142,
+    -121.7056485
+   ],
+   "source": "East Bay Regional Park District",
+   "added": "2026-10-28"
+  },
+  {
+   "id": "delta",
+   "name": "Sacramento–San Joaquin Delta boating",
+   "image": "maps/delta.jpg",
+   "thumb": "thumbs/delta.jpg",
+   "size": 271306,
+   "width": 1122.83,
+   "height": 1283.03,
+   "topLeft": [
+    38.3152387,
+    -121.859331
+   ],
+   "topRight": [
+    38.3172529,
+    -121.2631108
+   ],
+   "bottomLeft": [
+    37.782965,
+    -121.8424777
+   ],
+   "source": "California Coastal Commission, 2005",
+   "added": "2026-10-28"
+  },
+  {
+   "id": "wt-north-central",
+   "name": "SF Bay Water Trail: North Central Bay",
+   "image": "maps/wt-north-central.jpg",
+   "thumb": "thumbs/wt-north-central.jpg",
+   "size": 569854,
+   "width": 1664,
+   "height": 1486,
+   "topLeft": [
+    38.1603958,
+    -122.572725
+   ],
+   "topRight": [
+    38.1595509,
+    -122.1107515
+   ],
+   "bottomLeft": [
+    37.8335421,
+    -122.5739957
+   ],
+   "source": "SF Bay Area Water Trail, 2017",
+   "added": "2026-10-28"
+  },
+  {
+   "id": "wt-south-central",
+   "name": "SF Bay Water Trail: South Central Bay",
+   "image": "maps/wt-south-central.jpg",
+   "thumb": "thumbs/wt-south-central.jpg",
+   "size": 495833,
+   "width": 1670,
+   "height": 1420,
+   "topLeft": [
+    37.9209989,
+    -122.5656523
+   ],
+   "topRight": [
+    37.9197804,
+    -122.1098837
+   ],
+   "bottomLeft": [
+    37.6162095,
+    -122.5782487
+   ],
+   "source": "SF Bay Area Water Trail, 2017",
+   "added": "2026-10-28"
+  },
+  {
+   "id": "wt-south",
+   "name": "SF Bay Water Trail: South Bay",
+   "image": "maps/wt-south.jpg",
+   "thumb": "thumbs/wt-south.jpg",
+   "size": 519014,
+   "width": 1670,
+   "height": 1420,
+   "topLeft": [
+    37.7147491,
+    -122.4211348
+   ],
+   "topRight": [
+    37.7117974,
+    -121.9605287
+   ],
+   "bottomLeft": [
+    37.4026412,
+    -122.426566
+   ],
+   "source": "SF Bay Area Water Trail, 2017",
+   "added": "2026-10-28"
+  },
+  {
+   "id": "wt-north-san-pablo",
+   "name": "SF Bay Water Trail: North San Pablo Bay (Petaluma, Napa)",
+   "image": "maps/wt-north-san-pablo.jpg",
+   "thumb": "thumbs/wt-north-san-pablo.jpg",
+   "size": 530288,
+   "width": 1670,
+   "height": 1420,
+   "topLeft": [
+    38.3364915,
+    -122.6478734
+   ],
+   "topRight": [
+    38.3344846,
+    -122.1814509
+   ],
+   "bottomLeft": [
+    38.023195,
+    -122.6501511
+   ],
+   "source": "SF Bay Area Water Trail, 2017",
+   "added": "2026-10-28"
+  },
+  {
+   "id": "wt-suisun",
+   "name": "SF Bay Water Trail: Suisun Marsh",
+   "image": "maps/wt-suisun.jpg",
+   "thumb": "thumbs/wt-suisun.jpg",
+   "size": 468694,
+   "width": 1670,
+   "height": 1420,
+   "topLeft": [
+    38.2486878,
+    -122.2530217
+   ],
+   "topRight": [
+    38.2452238,
+    -121.7945123
+   ],
+   "bottomLeft": [
+    37.939542,
+    -122.2567362
+   ],
+   "source": "SF Bay Area Water Trail, 2017",
+   "added": "2026-10-28"
+  }
+ ]
+}

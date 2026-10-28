@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Outback map library</title>
+<style>
+:root{--ink:#12304a;--muted:#5b6b7a;--line:#d8e0e8;--paper:#fff;--bg:#eef3f7}
+@media (prefers-color-scheme:dark){:root{--ink:#e6eef5;--muted:#9fb0bf;--line:#2c3e50;--paper:#14212e;--bg:#0c1620}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:16px}
+.m{display:flex;gap:12px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:10px;margin:8px 0}
+.m img{width:64px;height:64px;border-radius:8px;object-fit:cover;flex:none}
+small{color:var(--muted);display:block}a{color:inherit}
+</style></head><body><main>
+<h1>Outback map library</h1>
+<p>Overlay maps already placed on the map. Open <a href="https://hodzic.github.io/outback/">Outback</a>, tap <b>PDF → Map library</b>, and add one.</p>
+<div id="list">Loading…</div>
+</main><script>
+fetch('catalog.json', { cache: 'no-cache' }).then(r => r.json()).then(c => {
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, x => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[x]));
+  document.getElementById('list').innerHTML = c.maps.map(m => `<div class="m"><img src="${esc(m.thumb)}" alt=""><div><b>${esc(m.name)}</b>
+    <small>${esc(m.source)}${m.license ? ' · ' + esc(m.license) : ''} · ${(m.size / 1024).toFixed(0)} KB</small>
+    <small><a href="${esc(m.image)}">Image</a>${m.geopdf ? ` · <a href="${esc(m.geopdf)}">GeoPDF</a>` : ''}${m.url ? ` · <a href="${esc(m.url)}">Original</a>` : ''}</small></div></div>`).join('');
+}).catch(() => { document.getElementById('list').textContent = 'Could not load the catalog.'; });
+</script></body></html>
