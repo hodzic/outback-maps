@@ -251,20 +251,21 @@
    "width": 2160,
    "height": 2400,
    "topLeft": [
-    37.93231503,
-    -122.00638933
+    37.93401555,
+    -122.01328969
    ],
    "topRight": [
-    37.93231503,
-    -121.84222483
+    37.93748589,
+    -121.84058685
    ],
    "bottomLeft": [
-    37.78780461,
-    -122.00638933
+    37.78284777,
+    -122.01004477
    ],
    "source": "California State Parks",
    "url": "https://www.parks.ca.gov/pages/517/files/mtdiablobrochure.pdf",
-   "added": "2026-10-28"
+   "added": "2026-10-28",
+   "updated": "2026-10-28"
   }
  ]
 }
