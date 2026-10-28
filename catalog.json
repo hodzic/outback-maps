@@ -214,6 +214,31 @@
    "url": "https://www.cosumnes.org",
    "added": "2026-10-28",
    "updated": "2026-10-28"
+  },
+  {
+   "id": "pleasanton-ridge",
+   "name": "Pleasanton Ridge Regional Park",
+   "image": "maps/pleasanton-ridge.jpg",
+   "geopdf": "maps/pleasanton-ridge.pdf",
+   "thumb": "thumbs/pleasanton-ridge.jpg",
+   "size": 1142132,
+   "width": 3438,
+   "height": 1664,
+   "topLeft": [
+    37.70618378,
+    -121.92283512
+   ],
+   "topRight": [
+    37.58723573,
+    -121.8552367
+   ],
+   "bottomLeft": [
+    37.68348999,
+    -121.99650768
+   ],
+   "source": "East Bay Regional Park District",
+   "url": "https://www.ebparks.org/sites/default/files/maps/pleasanton-ridge-map.pdf",
+   "added": "2026-10-28"
   }
  ]
 }
