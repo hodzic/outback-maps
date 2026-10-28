@@ -225,20 +225,21 @@
    "width": 3438,
    "height": 1664,
    "topLeft": [
-    37.70618378,
-    -121.92283512
+    37.70897098,
+    -121.92583144
    ],
    "topRight": [
-    37.58723573,
-    -121.8552367
+    37.58870716,
+    -121.8557386
    ],
    "bottomLeft": [
-    37.68348999,
-    -121.99650768
+    37.68078309,
+    -121.99925909
    ],
    "source": "East Bay Regional Park District",
    "url": "https://www.ebparks.org/sites/default/files/maps/pleasanton-ridge-map.pdf",
-   "added": "2026-10-28"
+   "added": "2026-10-28",
+   "updated": "2026-10-28"
   }
  ]
 }
