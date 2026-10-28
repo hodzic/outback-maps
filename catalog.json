@@ -240,6 +240,30 @@
    "url": "https://www.ebparks.org/sites/default/files/maps/pleasanton-ridge-map.pdf",
    "added": "2026-10-28",
    "updated": "2026-10-28"
+  },
+  {
+   "id": "mount-diablo",
+   "name": "Mount Diablo State Park",
+   "image": "maps/mount-diablo.jpg",
+   "geopdf": "maps/mount-diablo.pdf",
+   "thumb": "thumbs/mount-diablo.jpg",
+   "size": 630588,
+   "width": 2160,
+   "height": 2400,
+   "topLeft": [
+    37.93231503,
+    -122.00638933
+   ],
+   "topRight": [
+    37.93231503,
+    -121.84222483
+   ],
+   "bottomLeft": [
+    37.78780461,
+    -122.00638933
+   ],
+   "source": "California State Parks",
+   "added": "2026-10-28"
   }
  ]
 }
